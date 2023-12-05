@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Lion {
 
-    boolean hasMane;
-    final Feline feline;
+    private boolean hasMane;
+    private final Feline feline;
     //  Класс Lion не должен зависеть от класса Feline. Использован принцип инъекции зависимостей.
 
     public Lion(String sex, Feline feline) throws Exception {

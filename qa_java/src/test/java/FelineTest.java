@@ -17,12 +17,14 @@ public class FelineTest {
 
     @Test
     public void getOneKittens() {
-        Assert.assertEquals(1, feline.getKittens());
+        int expectedKittens = 1;
+        Assert.assertEquals(expectedKittens, feline.getKittens());
     }
 
     @Test
     public void getKittensWithCount() {
-        Assert.assertEquals(3, feline.getKittens(3));
+        int expectedKittens = 3;
+        Assert.assertEquals(expectedKittens, feline.getKittens(expectedKittens));
     }
 
 }
